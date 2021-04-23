@@ -1,0 +1,39 @@
+{
+  "name": "email",
+  "version": "2.0.0",
+  "description": "Email gulp",
+  "main": "gulpfile.js",
+  "author": "Waldir Bolanos",
+  "license": "ISC",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-changed": "^4.0.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-email-remove-unused-css": "^3.7.6",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-inline-css": "^3.3.1",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-prompt": "^1.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-tinypng-compress": "^1.2.5",
+    "path": "^0.12.7",
+    "scp2": "^0.5.0",
+    "through2": "^4.0.2"
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "IE 11"
+  ]
+}
